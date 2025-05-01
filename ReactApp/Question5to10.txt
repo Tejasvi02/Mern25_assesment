@@ -1,0 +1,20 @@
+//React
+//5. create a webpack setup, index html and one css file to show css in next questions (can use app.css from our project)
+//6. how react renders dom in conservative manner - explain, also explain 
+//7. create a class component named - Success and show some quotes (messages) in it with h1,h2,h3 components
+//8. create a functional component SuccessChild, make it child of Success and pass Name and Address to it from Success
+//9. create SuccessStory as another component, pass this as props in SuccessChild from Success component
+//10. explain how virtual dom works and how it is coupled with state updates and state update API's
+
+
+Check the build app using 
+npm start
+http://localhost:9090/
+
+6. It uses virtual DOM and diffing algorithm to compare previous with the updated one, 
+and only updates if there is a difference making it conservative and doesnt load everthing for a small change
+
+
+10. React maintains a Virtual DOM — a copy of the real DOM.
+When a state or prop changes: React re-renders the component, generates a new Virtual DOM tree, uses diffing algorithm to compare and updates only the differenece in the DOM
+

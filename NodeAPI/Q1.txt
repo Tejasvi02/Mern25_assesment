@@ -1,0 +1,21 @@
+//NodeAPI
+//1. Explain your knowledge of - statelessness, http, REST, spa and classical applications
+//2. Create an express setup, with a capability to expose end points for restful api
+//3. Create an API with name CreateUser as get verb and pass user info such as name, session, address and age as query param
+//4. Save the information passed in #3 to a json file name userInfo in local
+
+Question 1 answers:
+
+1. Statelesness -  The server does not remember anything about previous requests 
+
+2. HTTP - HyperText Transfer Protocol - used for transferring data between server and client via methods like GET,POST,PUT, DELETE etc
+
+3. REST - Representational State Transfer - it is a type of api which uses HTTP for CRUD operations
+
+4. SPA - Single Page Application - Loads a single HTML and just updates the content based on the requirement than loading entire page again, faster than the classical application
+
+5. Classical Applications - Multi Page application- It loads new page for each action
+
+To run the application:
+npm start
+http://localhost:9000/CreateUser/Akash/Devops/601 4th street/28
