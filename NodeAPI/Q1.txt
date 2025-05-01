@@ -18,4 +18,7 @@ Question 1 answers:
 
 To run the application:
 npm start
-http://localhost:9000/CreateUser/Akash/Devops/601 4th street/28
+http://localhost:9000/CreateUser/Akash/Devops/601 4th street/28 - for route Parameter
+http://localhost:9000/CreateUser?Name=Hasini&Session=nodeJs&Address=Boston&Age=24 - for query String or Query parameter
+
+and check the written file in userInfo.json
